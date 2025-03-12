@@ -40,5 +40,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 1)\_Clerk-
 It's amazing to learn how quickly and efficiently you can utilize the power of third party tool and make a form which can help in signing in and out using multiple platforms (like facebook, google, github, linkedin and a lot more).
 Then once logged in, the information and power it provides, is quite astonishing for me as well. You can manage loggedin devices, update profile, set password, and a lot more.
-Instead of focusing on implementing authentication and getting into a hell everytime, it has helped me to work briskly and swiftly and keep my focus on main things which I need to learn but again just like chatGPT, it's useful and worthy to play with as long as you have strong grisp on core concepts of authentication implementation like OAUTH, JWT, PassportJS and etc
-.
+Instead of focusing on implementing authentication and getting into a hell everytime, it has helped me to work briskly and swiftly and keep my focus on main things which I need to learn but again just like chatGPT, it's useful and worthy to play with as long as you have strong grisp on core concepts of authentication implementation like OAUTH, JWT, PassportJS and etc.
+

@@ -2,9 +2,8 @@ import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
-    <div>
-      {/* <Button variant={destructive}>Subscribe to my channel</Button> */}
-      {/* <Button>Subscribe to my channel</Button> */}
+    <div className="mt-40">
+      <Button variant="destrcutive">Subscribe to my channel</Button>
     </div>
   );
 }

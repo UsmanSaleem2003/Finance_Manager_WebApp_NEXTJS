@@ -42,3 +42,13 @@ It's amazing to learn how quickly and efficiently you can utilize the power of t
 Then once logged in, the information and power it provides, is quite astonishing for me as well. You can manage loggedin devices, update profile, set password, and a lot more.
 Instead of focusing on implementing authentication and getting into a hell everytime, it has helped me to work briskly and swiftly and keep my focus on main things which I need to learn but again just like chatGPT, it's useful and worthy to play with as long as you have strong grisp on core concepts of authentication implementation like OAUTH, JWT, PassportJS and etc.
 
+2)\_Shadcn-UI-
+Such an amazing library to quickly work with the different components without taking the hell of managing each and everything from sratch.
+
+3)\_SupaBase-
+Supabase is an open-source backend-as-a-service (BaaS) that provides developers with a PostgreSQL database, authentication, real-time subscriptions, storage, and serverless functions.
+
+4)\_Prisma-
+
+4)\_Arcjet-
+Integrates with. Bot protection, data redaction, rate limiting, email validation & more in just a few lines of code. Customizable protection for forms, login pages, and API routes.

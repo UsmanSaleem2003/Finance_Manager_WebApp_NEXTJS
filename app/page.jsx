@@ -1,7 +1,9 @@
 import HeroSection from "@/components/customComponents/hero";
+import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { howItWorksData, statsData, featuresData, testimonialsData } from "@/data/main_page_data";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -79,6 +81,20 @@ export default function Home() {
               </Card>
             ))}
           </div>
+        </div>
+      </section>
+
+
+      <section className="py-20 bg-blue-600">
+        <div className="continer mx-auto px-4 text-center">
+          <h2 className="text-3xl font-bold text-center mb-4">Ready for a more secure financial future?</h2>
+          <p className="ext-blue-100 mb-8 max-w-2xl mx-auto">Join a thriving community of users who trust 'FINMAN' for smarter financial management</p>
+          <Link href="/dashboard">
+            <Button size="lg" className="bg-white text-blue-600 hover:bg-blue-50 animate-bounce">
+              Get Your Free Trial
+            </Button>
+          </Link>
+
         </div>
       </section>
 

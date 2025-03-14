@@ -50,5 +50,9 @@ Supabase is an open-source backend-as-a-service (BaaS) that provides developers 
 
 4)\_Prisma-
 
-4)\_Arcjet-
+5)\_Arcjet-
 Integrates with. Bot protection, data redaction, rate limiting, email validation & more in just a few lines of code. Customizable protection for forms, login pages, and API routes.
+
+6)\_Inngest-
+Inngest's durable functions replace queues, state management, and scheduling to enable developers to build reliable, AI-ready step functions faster — without touching infrastructure.
+command used: "npx inngest-cli@latest dev"

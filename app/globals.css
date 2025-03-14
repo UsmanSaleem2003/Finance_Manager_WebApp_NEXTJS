@@ -124,3 +124,35 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer utilities {
+  .gradient {
+    background-image: linear-gradient(to bottom right, #16bffd, #cb3066);
+  }
+
+  .gradient-title {
+    background-image: linear-gradient(to bottom right, #16bffd, #cb3066);
+    font-weight: 800;
+    letter-spacing: -0.05em;
+    padding-right: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: transparent;
+    background-clip: text;
+  }
+
+  .hero-image-wrapper {
+    perspective: 1000px;
+    overflow: hidden;
+  }
+
+  .hero-image {
+    transform: rotateX(35deg);
+    scale: 1;
+    transition: transform 0.5s ease-out;
+    will-change: transform;
+  }
+
+  .hero-image.scrolled {
+    transform: rotateX(0deg) scale(1) translateY(40px);
+  }
+}

@@ -5,9 +5,26 @@ import {
     CreditCard,
     Globe,
     Zap,
+    ShieldCheck,
+    Bell,
+    Users
 } from "lucide-react";
 
-// Stats Data
+export const platformData = [
+    {
+        value: "Finance Management",
+        label: "Industry",
+    },
+    {
+        value: "Saas - Web App",
+        label: "App Type",
+    },
+    {
+        value: "Up-to-date Alerts",
+        label: "Services",
+    },
+];
+
 export const statsData = [
     {
         value: "5K+",
@@ -27,85 +44,99 @@ export const statsData = [
     },
 ];
 
-// Features Data
 export const featuresData = [
     {
         icon: <BarChart3 className="h-8 w-8 text-blue-600" />,
-        title: "Advanced Analytics",
+        title: "In-Depth Analytics",
         description:
-            "Get detailed insights into your spending patterns with AI-powered analytics",
+            "Gain AI-driven insights into your financial habits and spending trends.",
     },
     {
         icon: <Receipt className="h-8 w-8 text-blue-600" />,
-        title: "Smart Receipt Scanner",
+        title: "AI-Powered Receipt Scanner",
         description:
-            "Extract data automatically from receipts using advanced AI technology",
+            "Automatically extract and organize receipt data with cutting-edge AI.",
     },
     {
         icon: <PieChart className="h-8 w-8 text-blue-600" />,
-        title: "Budget Planning",
-        description: "Create and manage budgets with intelligent recommendations",
+        title: "Smart Budgeting",
+        description: "Plan and manage budgets efficiently with intelligent suggestions.",
     },
     {
         icon: <CreditCard className="h-8 w-8 text-blue-600" />,
-        title: "Multi-Account Support",
-        description: "Manage multiple accounts and credit cards in one place",
+        title: "Unified Account Management",
+        description: "Handle multiple accounts and credit cards seamlessly in one place.",
     },
     {
         icon: <Globe className="h-8 w-8 text-blue-600" />,
-        title: "Multi-Currency",
-        description: "Support for multiple currencies with real-time conversion",
+        title: "Real-Time Currency Conversion",
+        description: "Support multiple currencies with instant exchange rate updates.",
     },
     {
         icon: <Zap className="h-8 w-8 text-blue-600" />,
-        title: "Automated Insights",
-        description: "Get automated financial insights and recommendations",
+        title: "AI-Driven Insights",
+        description: "Receive automated financial tips and intelligent recommendations.",
+    },
+    {
+        icon: <ShieldCheck className="h-8 w-8 text-blue-600" />,
+        title: "Enhanced Security",
+        description: "Protect transactions with advanced encryption and safety measures.",
+    },
+    {
+        icon: <Bell className="h-8 w-8 text-blue-600" />,
+        title: "Personalized Notifications",
+        description: "Set up custom alerts for budget thresholds and financial activity.",
+    },
+    {
+        icon: <Users className="h-8 w-8 text-blue-600" />,
+        title: "Collaborative Budgeting",
+        description: "Share and manage budgets with family or team members effortlessly.",
     },
 ];
 
-// How It Works Data
 export const howItWorksData = [
     {
         icon: <CreditCard className="h-8 w-8 text-blue-600" />,
-        title: "1. Create Your Account",
-        description:
-            "Get started in minutes with our simple and secure sign-up process",
+        title: "1. Sign Up Effortlessly",
+        description: "Register securely and set up your account in just a few minutes.",
     },
     {
         icon: <BarChart3 className="h-8 w-8 text-blue-600" />,
-        title: "2. Track Your Spending",
-        description:
-            "Automatically categorize and track your transactions in real-time",
+        title: "2. Track Your Expenses",
+        description: "Keep an eye on your spending with real-time transaction tracking.",
     },
     {
         icon: <PieChart className="h-8 w-8 text-blue-600" />,
-        title: "3. Get Insights",
-        description:
-            "Receive AI-powered insights and recommendations to optimize your finances",
+        title: "3. Gain Financial Insights",
+        description: "Use AI-powered analytics to understand and improve your financial habits.",
+    },
+    {
+        icon: <ShieldCheck className="h-8 w-8 text-blue-600" />,
+        title: "4. Secure & Optimize",
+        description: "Ensure safe transactions while optimizing your budget with smart recommendations.",
     },
 ];
 
-// Testimonials Data
 export const testimonialsData = [
     {
-        name: "Sarah Johnson",
-        role: "Small Business Owner",
-        image: "https://randomuser.me/api/portraits/women/75.jpg",
+        name: "Sophia Martinez",
+        role: "Independent Consultant",
+        image: "https://randomuser.me/api/portraits/women/68.jpg",
         quote:
-            "Welth has transformed how I manage my business finances. The AI insights have helped me identify cost-saving opportunities I never knew existed.",
+            "FINMAN has completely changed the way I handle my business finances. The AI-powered insights have uncovered cost-saving strategies I never considered before.",
     },
     {
-        name: "Michael Chen",
-        role: "Freelancer",
-        image: "https://randomuser.me/api/portraits/men/75.jpg",
+        name: "Daniel Wong",
+        role: "Entrepreneur",
+        image: "https://randomuser.me/api/portraits/men/61.jpg",
         quote:
-            "The receipt scanning feature saves me hours each month. Now I can focus on my work instead of manual data entry and expense tracking.",
+            "The smart receipt scanner has been a game-changer. I no longer waste time on manual expense tracking and can focus more on growing my business.",
     },
     {
-        name: "Emily Rodriguez",
-        role: "Financial Advisor",
-        image: "https://randomuser.me/api/portraits/women/74.jpg",
+        name: "Olivia Carter",
+        role: "Wealth Management Specialist",
+        image: "https://randomuser.me/api/portraits/men/66.jpg",
         quote:
-            "I recommend Welth to all my clients. The multi-currency support and detailed analytics make it perfect for international investors.",
+            "I always recommend FINMAN to my clients. Its multi-currency support and advanced analytics make it an essential tool for global investors.",
     },
 ];

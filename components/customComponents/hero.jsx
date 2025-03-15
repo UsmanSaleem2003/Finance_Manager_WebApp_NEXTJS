@@ -42,11 +42,14 @@ function HeroSection() {
 
                 <div className='flex justify-center space-x-4'>
 
+
                     {/* <Button size="lg" className="px-8">Get Started</Button> */}
+                    {/* <div className="px-12 py-4  bg-black rounded-[6px]  relative group transition duration-200 text-white hover:bg-transparent"> */}
+                    {/* <div className="px-12 py-4  bg-white rounded-[6px]  relative group transition duration-200 text-black hover:bg-black hover:text-white"> */}
                     <Link href="/dashboard">
-                        <button className="p-[3px] relative">
+                        <button className="p-[3px] relative cursor-pointer">
                             <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg" />
-                            <div className="px-12 py-4  bg-black rounded-[6px]  relative group transition duration-200 text-white hover:bg-transparent">
+                            <div className="px-12 py-4  bg-black rounded-[6px]  relative group transition duration-200 text-white hover:bg-gradient-to-r from-indigo-300 to-purple-300 hover:text-black hover:font-semibold">
                                 Get Started
                             </div>
                         </button>

@@ -49,6 +49,12 @@ Such an amazing library to quickly work with the different components without ta
 Supabase is an open-source backend-as-a-service (BaaS) that provides developers with a PostgreSQL database, authentication, real-time subscriptions, storage, and serverless functions.
 
 4)\_Prisma-
+Helps us define the schema easily. Can switch to any sql database easily without the need to rewrite in that sql's particular syntax.
+Generates different migrations(versions) of database.
+a)\_Install prisma.
+b)\_Write Schemas in schema.prisma file
+c)\_Create PrismaClient in ./lib/prisma.js file
+d)\_Create a migration of db
 
 5)\_Arcjet-
 Integrates with. Bot protection, data redaction, rate limiting, email validation & more in just a few lines of code. Customizable protection for forms, login pages, and API routes.

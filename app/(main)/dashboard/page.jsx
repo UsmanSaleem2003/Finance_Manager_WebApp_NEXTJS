@@ -1,4 +1,5 @@
 import React from 'react'
+import CreateAccountDrawer from '@/components/customComponents/createAccountDrawer'
 
 const DashboardPage = () => {
     return (

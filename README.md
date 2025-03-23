@@ -64,3 +64,7 @@ Inngest's durable functions replace queues, state management, and scheduling to 
 command used: "npx inngest-cli@latest dev"
 
 7)\_React-Spinners-
+We are using this for showing spinner (loading) animation.
+
+8)\_React-HookForm & Zord-
+For managing forms in react, we're using ReactHooks and zord

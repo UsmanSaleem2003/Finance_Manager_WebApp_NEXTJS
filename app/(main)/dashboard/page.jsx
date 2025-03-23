@@ -8,6 +8,12 @@ const DashboardPage = () => {
             {/* Dashboard Overview */}
 
             {/* Accounts Grid */}
+            <div>
+                {/* below is reuseable component (kind of popup for further actions) */}
+                <CreateAccountDrawer>
+
+                </CreateAccountDrawer>
+            </div>
         </div>
     )
 }

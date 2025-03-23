@@ -66,5 +66,7 @@ command used: "npx inngest-cli@latest dev"
 7)\_React-Spinners-
 We are using this for showing spinner (loading) animation.
 
-8)\_React-HookForm & Zord-
-For managing forms in react, we're using ReactHooks and zord
+8)\_React-HookForm & Zod-
+For managing forms in react, we're using ReactHooks and zod.
+react-hook-form is a lightweight React library for handling form state and validation with optimized re-renders.
+Zod is a TypeScript-first schema validation library for parsing and validating form data with strict type safety.
